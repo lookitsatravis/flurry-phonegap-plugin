@@ -30,6 +30,7 @@
 		<framework src="SystemConfiguration.framework" />
 		<framework src="CFNetwork.framework" />
 		<framework src="Security.framework" />
+		<framework src="libs/ios/libFlurry_6.4.0.a" custom="true" />
 	</platform>
 
 	<platform name="android">
