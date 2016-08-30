@@ -40,13 +40,12 @@
 			</feature>
 		</config-file>
 
-		<source-file src="src/android/Flurry.java"
-					target-dir="src/com/phonegap/plugins/flurry/" />
+		<source-file src="src/android/Flurry.java" target-dir="src/com/phonegap/plugins/flurry/" />
+		<source-file src="libs/android/flurryAnalytics_6.5.0.jar" target-dir="libs" />
 		<dependency id="com.google.playservices" />
 		<dependency id="android.support.v4" />
 		<config-file target="AndroidManifest.xml" parent="/*/application">
-			<meta-data android:name="com.google.android.gms.version"
-			  android:value="@integer/google_play_services_version"/>
+			<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
 		</config-file>
 		<config-file target="AndroidManifest.xml" parent="/*">
 		  <uses-permission android:name="android.permission.INTERNET" />
